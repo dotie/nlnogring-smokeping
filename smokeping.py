@@ -27,6 +27,6 @@ for key in sorted(activenodes):
     print("++ %s" % (key.split('.', 1)[0]))
     print("menu = %s" % (key.split('.', 1)[0]))
     print("title = %s" % (activenodes[key]))
-    print("probe = FPingDefault")
+    print("probe = FPing")
     print("host = %s" % (key))
     print("alerts = highloss,majorloss")
